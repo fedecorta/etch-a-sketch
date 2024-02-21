@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 256px;
+    width: 256px;
+}
+
+.innerdiv {
+    height: 16px;
+    width: 16px;
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+
+.innerdiv:hover{
+    background-color: aqua;
+}
+
+#btn {
+    margin-bottom: 10px;
+}
